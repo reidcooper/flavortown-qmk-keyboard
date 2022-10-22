@@ -13,6 +13,14 @@ or,
 1. Run `make compile`
 2. New compiled firmware should be on your desktop
 
+## Key Visualizer
+
+```
+$ pip3 install keymapviz
+
+$ keymapviz keymap.c  --keyboard ergodox_ez -c config.properties -t fancy
+```
+
 ## Sources
 
 - [Wally Flashing Tool](https://ergodox-ez.com/pages/wally)
