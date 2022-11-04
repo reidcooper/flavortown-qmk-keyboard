@@ -3,9 +3,8 @@
 LTO_ENABLE = yes
 CONSOLE_ENABLE = no
 COMMAND_ENABLE = no
-AUTO_SHIFT_ENABLE = yes
-MOUSEKEY_ENABLE = no
 ORYX_ENABLE = yes
 SPACE_CADET_ENABLE = no
+CAPS_WORD_ENABLE = yes
 SRC = matrix.c
 SRC += features/select_word.c
